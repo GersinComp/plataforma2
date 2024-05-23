@@ -1,0 +1,16 @@
+:root {
+    --back-body: linear-gradient(150deg, #6989b9e1, #88b2ede1, #5d7697);
+    --back-hd: linear-gradient(120deg,#6989b9e1, #5079b8e1, #425c80, #2758a1);
+    --back-nav: rgba(92, 148, 231, 0.85);
+    --style-hyperlinks: ;
+    --back-main: linear-gradient(120deg, #88b2ede1, #659ade);
+    --back-section: linear-gradient(120deg, #88b2ede1, #659ade);
+    --back-ft: linear-gradient(120deg, #2758a1, #425c80, #5474a1, #425c80, #2758a1);
+    --border-scroll: 10px solid black;
+}
+
+header {
+    background: var(--back-hd);
+    flex: 1 1 100vw;
+    height: 100%;
+}
